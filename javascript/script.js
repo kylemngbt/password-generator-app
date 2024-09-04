@@ -5,6 +5,7 @@ const lowerCase = "abcdefghijklmnopqrstuvwxyz";
 const number = "0123456789";
 const symbol = "@#$%^&*()_+~|}{[]></-=";
 const allChars = upperCase + lowerCase + number + symbol;
+const generateBtn = document.querySelector(".container button");
 
 function createPassword() {
   let password = "";
