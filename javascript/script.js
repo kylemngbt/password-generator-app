@@ -26,3 +26,4 @@ function copyPassword() {
 }
 
 generateBtn.addEventListener("click", createPassword);
+copyIcon.addEventListener("click", copyPassword);
