@@ -18,3 +18,5 @@ function createPassword() {
   }
   passwordBox.value = password;
 }
+
+generateBtn.addEventListener("click", createPassword);
