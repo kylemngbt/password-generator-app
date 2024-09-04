@@ -6,6 +6,7 @@ const number = "0123456789";
 const symbol = "@#$%^&*()_+~|}{[]></-=";
 const allChars = upperCase + lowerCase + number + symbol;
 const generateBtn = document.querySelector(".container button");
+const copyIcon = document.querySelector(".display img");
 
 function createPassword() {
   let password = "";
@@ -18,5 +19,6 @@ function createPassword() {
   }
   passwordBox.value = password;
 }
+
 
 generateBtn.addEventListener("click", createPassword);
